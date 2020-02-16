@@ -1,21 +1,27 @@
 ﻿body {
 }
-.auto-style1 {
+.flower {
     width: 137px;
     height: 174px;
 }
-
-.auto-style2 {
+.startpic {
     width: 24px;
     height: 18px;
     margin-right: 0px;
 }
-
-.auto-style3 {
+.visa {
+    float: right;
+    margin-top:6%;
+    margin-right: 15%;
+    width: 80px;
+    height: 64px;
+    border:solid;
+}
+.paymentpic {
     width: 26px;
     height: 23px;
 }
-.auto-style4 {
+.cancelpic {
     width: 24px;
     height: 18px;
     margin-right: 0px;

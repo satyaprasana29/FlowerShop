@@ -15,7 +15,7 @@
             <div class="Firstbar"></div>
             <div class="FullDiv">
             <div class="leftpadding"> 
-                <img src="Image/img.png" class="auto-style1" /></div>
+                <img src="Image/img.png" class="flower" /></div>
                 <div class="rightpadding">
                     <div class="firstdiv">
                         <h2 class="SecurePayment">Secure Payment Page</h2>
@@ -28,6 +28,7 @@
                         <br/>
                         <br />
                         <label class="lblPaymentMethod">Payment Method</label>
+                        <img class="visa" src="Image/logo.png" />
                         <label class="lblPay"><b>Visa</b></label><br />
                         <br />
                         <label class="lblDescription">Description</label>
@@ -36,8 +37,7 @@
                         <br/>
                         <label class="lblAmount">Amount</label>
                         <label class="lblEuro">&euro;<b>100.0</b></label>
-                    </div>
-                    <br />
+                        </div>
                     <div class="SecondDiv">
                         <p class="CardDetails">Card Details</p>
                         <p class="CardetailPa">You must fill in fields marked with *</p>
@@ -111,12 +111,12 @@
                         <input type="text" class="emailaddress"  required="required" onchange="checkEmail()" id="email"/>
                          </div>
                     <div class="thirdDiv">
-                        <a href="#" class="StartAgain">
-                            &nbsp; <img src="Image/startAgain.png " class="auto-style2" />&nbsp; START AGAIN
+                        <a href="FlowerPage.aspx" class="StartAgain">
+                            &nbsp; <img src="Image/startAgain.png " class="startpic" />&nbsp; START AGAIN
                         </a>
                         <a href="#" class="Makepayment">
-                            &nbsp;MAKE PAYMENT <img src="Image/gg.png" class="auto-style3" /></a>&nbsp;
-                        <a href="#" class="Cancelpayment">&nbsp;<img src="Image/cancel.png" class="auto-style4" /> &nbsp;CANCEL
+                            &nbsp;MAKE PAYMENT <img src="Image/gg.png" class="paymentpic" /></a>&nbsp;
+                        <a href="#" class="Cancelpayment">&nbsp;<img src="Image/cancel.png" class="cancelpic" /> &nbsp;CANCEL
                         </a>
                     </div>
                     <hr />
